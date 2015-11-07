@@ -1,40 +1,493 @@
+/**cursos logod*/
+.body-baner {
+    background-image: url("http://educacion.be/campus/images/tecnologia.jpg");
+}
+img#imgeb {
+    width: 7%;
+    padding: 2px;
+}
+.body-baner {
+    background-image: url("http://educacion.be/campus/images/tecnologia.jpg");
+}
+div#banertext {
+    color: white;
+    font-size: 15px;
+    padding: 3px;
+    background: rgb(0, 75, 132);
+    border-bottom: 3px solid #043156;
+}
+/*cursos end**
+
+.block_course_overview .activity_info {
+    clear: both;
+    background-color: rgba(255, 255, 255, 0.81);
+    border-radius: 10px;
+}
+.moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd, .moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd.yui3-widget-hd {
+    padding: 5px;
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #FFF;
+    text-align: center;
+    /* text-shadow: 1px 1px 1px #fff; */
+    background: #ccc;
+    background-color: #ebebeb;
+    background-image: -moz-linear-gradient(top,#fff,#ccc);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#FF00A8),to(#FF00A8));
+    /* background-image: -webkit-linear-gradient(top,#fff,#ccc); */
+    background-image: -o-linear-gradient(top,#fff,#ccc);
+    /* background-image: linear-gradient(to bottom,#fff,#ccc); */
+    /* background-repeat: repeat-x; */
+    border-bottom: 1px solid #bbb;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#ffcccccc',GradientType=0);
+    filter: 0;
+}
+/*******-------------------****/
+.qtext {
+    background-color: #0078D7;
+    padding-left: 3px;
+    border-radius: 3px;
+    border-bottom: 2px solid #0660A7;
+}
+.answer {
+    background-color: #F98315;
+    font-weight: bold;
+    border-radius: 3px;
+}
+div#yui_3_15_0_3_1440953657240_453 {
+    background-color: #F3740D;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.que .ablock {
+    margin: .7em 0 .3em 0;
+    background-color: #FDC027;
+    border-radius: 3px;
+    padding: 3px;
+}
+.que .formulation {
+    color: #FFFFFF;
+    color: #FDFDFD;
+    background-color: #0495D8;
+    /* border-color: #bce8f1; */
+}
+.que .formulation, .que .outcome, .que .comment {
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    background-color: #0495D8;
+    /* border: 1px solid #fbeed5; */
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-shadow: none;
+}
+/************----------------*****/
+
+/*Botón de Evaluación*/
+a.dimmed.conditionalhidden:hover {
+    background-color: #8DF389;
+    border-bottom: 5px solid #08C501;
+    color: #278C05;
+}
+.section .activity .availabilityinfo, .section .activity .contentafterlink {
+    margin-top: .5em;
+    margin-left: 30px;
+    background-color: rgba(253, 253, 154, 0.96);
+    border-radius: 5px;
+    border: 2px solid rgba(255, 179, 0, 0.91);
+    padding: 2px;
+    margin-top: 12px;
+    color: rgba(255, 49, 0, 0.95);
+}
+
+a.dimmed, a.dimmed:link, a.dimmed:visited, a.dimmed_text, a.dimmed_text:link, a.dimmed_text:visited, .dimmed_text, .dimmed_text a, .dimmed_text a:link, .dimmed_text a:visited, .usersuspended, .usersuspended a, .usersuspended a:link, .usersuspended a:visited, .dimmed_category, .dimmed_category a {
+    color: #F00;
+    background-color: rgba(251, 151, 251, 0.42);
+    padding: 9px 30px 9px 2px;
+    border-radius: 5px;
+    border-bottom: 5px solid #F97FCC;
+    font-weight: bold;
+}
+/*end botón de evaluación*/
+
+/*Botones direccionales*/
+.course-content .single-section .section-navigation .mdl-right:hover {
+    background-color: yellow;
+    border-bottom: 3px solid #CACA04;
+}
+
+.course-content .single-section .section-navigation .mdl-left:hover {
+    border-bottom: 3px solid #CACA04;
+    background-color: rgb(255, 255, 0);
+}
+
+.pagelayout-incourse #region-main, .pagelayout-mydashboard #region-main {
+  background-color: #FFF;
+  border: 1px solid #8CDBF9;
+  border-radius: 1px 1px 1px 1px;
+  box-shadow: 2px 2px 2px rgba(140, 219, 249, 1);
+  margin-bottom: 20px;
+  min-height: 20px;
+  padding: 8px;
+}
+
+
+.course-content .single-section .section-navigation .mdl-left {
+  float: left;
+  margin-right: 1em;
+  border-bottom: 3px solid #0184B3;
+  border-radius: 4px;
+  padding: 5px;
+  font-weight: bold;
+  color: rgb(255, 254, 254);
+  background-color: rgb(157, 227, 252);
+  margin-bottom: 4px;
+}
+
+.course-content .single-section .section-navigation .mdl-right {
+  float: right;
+  margin-left: 1em;
+  border-bottom: 3px solid #0184B3;
+  border-radius: 4px;
+  padding: 5px;
+  font-weight: bold;
+  color: rgb(255, 254, 254);
+  background-color: rgb(157, 227, 252);
+  margin-bottom: 4px;
+}
+
+.course_category_tree .category>.info>.categoryname {
+  text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.coursebox>.info>.coursename a {
+  color: yellow;
+  text-shadow: 2px 2px rgb(108, 108, 0);
+}
+
+.sitetopic ul.section {
+  margin: 0;
+  margin-top: -18px;
+}
+.path-site li.activity>div, .path-course-view li.activity>div {
+  position: relative;
+  padding: 0 0px 0 0;
+}
+
+.section .label .mod-indent-outer {
+  display: block;
+  padding-left: 0px;
+}
+
+.section .label .contentwithoutlink, .section .label .activityinstance {
+  display: block;
+  height: inherit;
+  padding-right: 0px;
+}
+
+.userenrolment .col_role {
+  width: 0px;
+}
+
+
+/*******Tablero de notas del estudiante*************/
+td.item.b1b.feedbacktext {
+  font-size: 12px;
+  color: rgb(235,14,235);
+  font-weight: bold;
+}
+
+.user-grade tbody > tr:nth-child(n) > td.oddd1, .user-grade tbody>tr:nth-child(n)>th.oddd1 {
+  background-color: #0078D7;
+  color: white;
+}
+
+.user-grade td.b1l, .user-grade td.b2l, .user-grade th.b1l, .user-grade th.b2l {
+  border-left: none;
+}
+
+.user-grade td.b1b, .user-grade td.b2b, .user-grade th.b1b, .user-grade th.b2b {
+  border-bottom: 1px solid rgb(0, 120, 215);
+}
+
+.user-grade td.b1t, .user-grade td.b2t, .user-grade th.b1t, .user-grade th.b2t {
+  border-top: 2px solid rgb(0, 120, 215);
+}
+
+.user-grade {
+  border: 1px solid rgb(0, 120, 215);
+  margin: auto;
+  padding: 0em;
+  font-size: 0.8em;
+}
+
+.user-grade td.item, .user-grade th.item {
+  border-left: 1px solid rgb(0, 120, 215);
+  border-right: 1px solid rgb(0, 120, 215);
+}
+
+.user-grade tbody th {
+  text-align: center;
+}
+
+.user-grade td {
+  margin: 1px;
+  padding: 0em;
+  min-width: 0em;
+  vertical-align: top;
+}
+
+.user-grade thead {
+  border-bottom: 3px solid #008fd5;
+}
+
+
+.user-enroller-panel .uep-search-results .users tbody tr:hover>td, table.grading-report tbody tr:hover>td, .forumheaderlist tbody tr:hover>td, .generaltable tbody tr:hover>td, table.flexible tbody tr:hover>td, .category_subcategories tbody tr:hover>td, table#modules tbody tr:hover>td, table#permissions tbody tr:hover>td, .user-enroller-panel .uep-search-results .users tbody tr:hover>th, table.grading-report tbody tr:hover>th, .forumheaderlist tbody tr:hover>th, .generaltable tbody tr:hover>th, table.flexible tbody tr:hover>th, .category_subcategories tbody tr:hover>th, table#modules tbody tr:hover>th, table#permissions tbody tr:hover>th {
+  background-color: rgb(255, 255, 135);
+}
+/********************/
+
+
+/***Edición de titulo principal de Cursos**/
+.block_course_overview .content h2.title {
+  float: none;
+  margin: 0 0 .1em 0;
+  position: relative;
+  text-align: center;
+  width: 70%;
+  text-transform: uppercase;
+}
+/*****/
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-submenu:hover>a, .dropdown-submenu:focus>a {
+  background-color: #F00;
+  background-image: none;
+  text-shadow: none;
+  color: #FFFFFF;
+  background: red;
+}
+
+.navbar .nav>li>a:focus, .navbar .nav>li>a:hover {
+  color: #FFC43A;
+  text-decoration: none;
+  background-color: transparent;
+  background: red;
+}
+
+
+
+/****/
+table.flexible th, .generaltable th, table.flexible td, .generaltable td {
+  padding: 3px;
+  line-height: 15px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+/****/
+
+
+.footerlinks {
+color: #FFFFFF;
+font-size: 0.9em;
+text-align: center;
+background-color: rgb(157, 13, 192);
+/*text-shadow: 1px 1px rgb(157, 13, 192);*/
+font-weight: bold;
+padding-top: 2px;
+margin-top: 6px;
+height: 25px;
+}
+
+
+#footersocials{
+    background: #0AAFCD;
+    vertical-align: middle;
+    color: white;
+    text-transform: uppercase;
+    background-image: url("http://educacion.be/cursos/images/fondo.png");
+    /*height: 200px;*/
+    background-size: cover;
+}
+
+.course-content ul.topics li.section {
+padding-bottom: 0px;
+}
+.course-content ul.topics li.section {
+list-style: none;
+margin: 0 0 0 0;
+padding: 0;
+}
+
+/**Boton personalizas página*/
+button:hover, input.form-submit:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, button:focus, input.form-submit:focus, input[type="button"]:focus, input[type="submit"]:focus, input[type="reset"]:focus {
+text-decoration: none;
+background-position: 0 -30px;
+-webkit-transition: background-position .1s linear;
+-moz-transition: background-position .1s linear;
+-o-transition: background-position .1s linear;
+transition: background-position .1s linear;
+background-color: #7dcd40;
+border-bottom: 4px solid #7dcd40;
+border-color: #7dcd40 #7dcd40 #6dae33;
+color: #FFF;
+}
+
+
+.course-content ul.topics li.section .content, .course-content ul.weeks li.section .content {
+padding: 0;
+margin-right: 0px;
+margin-left: 0px;
+}
+
+.course-content .current {
+background-color: rgb(155, 0, 141);
+}
+.course-content ul.section {
+margin: 0em;
+}
+
+.no-overflow {
+padding-bottom: 1px;
+overflow: auto;
+font-family: "Roboto Slab",serif;
+}
+
+table {
+background-color: rgba(19, 191, 213, 0.27);
+}
+
+button:first-child, input.form-submit:first-child, input[type="button"]:first-child, input[type="submit"]:first-child, input[type="reset"]:first-child {
+font-size: 0.9em;
+font-weight: bold;
+color: #FFFFFF;
+text-shadow: none;
+}
+
+.breadcrumb {
+text-align: left;
+margin: 0 0 0px;
+font-weight: bold;
+font-family: 'Roboto Slab', serif;
+}
+
+
+div#page {
+background-color: white;
+}
+
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+background-color: #FF0000;
+background-image: none;
+text-shadow: none;
+color: #FFFFFF;
+}
+/*********/
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-submenu:hover>a, .dropdown-submenu:focus>a {
+  background-color: #F00;
+  background-image: none;
+  text-shadow: none;
+  color: #FFFFFF;
+}
+/*************************/
+
+ .pagelayout-mydashboard #region-main {
+background-color: #FFF;
+border: 0px solid #E3E3E3;
+border-radius: 1px 1px 1px 1px;
+box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05);
+margin-bottom: 20px;
+min-height: 20px;
+padding: 0px;
+}
+
+.block .header h2 {
+color: #FFFFFF;
+}
+
+.header {
+background-color: #008fd5;
+text-shadow: none;
+color: #FFF;
+font-weight: bold;
+font-style: normal;
+line-height: 25px;
+text-decoration: none;
+margin-top: -9px;
+padding-bottom: 4px;
+}
+
+header#page-header {
+font-family: 'Oswald',Arial,Helvetica,sans-serif;
+}
+
+h2 {
+font-size: 23px;
+}
+
+html, body {
+color: #747474;
+background-image: url();
+background-position: center top;
+background-repeat: no-repeat;
+font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif;
+background-color: #0078d7;
+}
+
+.container-fluid {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: #01051E;
+}
+
 /*
  * @author    Shaun Daubney
  * @package   theme_aardvark
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-html,body {
-color:#747474;
-background-color: [[setting:backcolor]];
-background-image: url([[setting:backimage]]);
-background-position: center top;
-background-repeat:[[setting:backposition]];
-font-family: 'open sans',sans-serif;
-}
 
 h1, h2, h3, h4, h5, h6 {
-font-weight:normal;
+/*font-weight:normal;*/
 }
 
 h3 {
-font-size:1.1em;
-text-transform:uppercase;
-
+  font-size: 1.4em;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-family: 'Roboto Slab',serif;
+  text-align: center;
+  border-bottom: 0px solid #00B9FF;
+  background: #8CDBF9;
+  border-left: 10px solid #00B9FF;
+  border-right: 10px solid #28B779;
+  line-height: 250%;
 }
 
 .block .content h3 {
 padding:0;
+  color: white;
+  text-shadow: none;
 }
 
 a {
-    color: #3d3d3d;
-    text-decoration: none;
+color: #039ED7;
+text-decoration: none;
 }
 
 a:hover, a:focus {
-    color: [[setting:menuhovercolor]];
+   /* color: [[setting:menuhovercolor]];*/
     text-decoration: none;
+color: #02E802;
 }
 
 img {
@@ -60,33 +513,37 @@ img {
 }
 
 #page-header h1 {
-    color: #999999;
-    font-size: 22px;
-    text-transform: uppercase;
-	float:left;
-	margin: -10px 0 5px;
+	color: #FFF;
+	font-size: 20px;
+	margin: 2px 0 5px;
+	background-color: #28b779;
+	border: 2px solid #28b779;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
 }
 
 #page-header-date h1 {
-    color: #ccc;
-    font-size: 22px;
-    text-transform: uppercase;
-	float:right;
-	margin: -10px 0 5px;
+	text-transform: capitalize;
+	color: red;
+	font-size: 18px;
+	float: right;
+	margin-top: -48px;
+	background-color: yellow;
+	border: 1px solid yellow;
+	margin-right: 2px;
 }
 
 #page-header-generalalert {
-    clear:both;
-	display: block;
-	color:#ff9f00;
-	background-color:#fef8d2;
-	padding:8px 35px 8px 14px;
-	margin-bottom:20px;
-	text-shadow:0 1px 0 rgba(255,255,255,0.5);
-	border:1px solid #fde6af;
-	-webkit-border-radius:4px;
-	-moz-border-radius:4px;
-	border-radius:4px;
+  clear: both;
+display: block;
+color: #FFFFFF;
+background-color: #FFC43A;
+padding: 8px 35px 8px 14px;
+margin-bottom: 5px;
+border: 1px solid #fde6af;
+border-bottom: 3px solid #F39C12;
+font-family: 'Roboto Slab', serif;
+font-weight: bold;
 }
 
 #page-header-generalalert:before {
@@ -109,17 +566,15 @@ img {
 }
 
 #page-header-snowalert {
-    clear:both;
-	display: block;
-	color:#3a87ad;
-	background-color:#d9edf7;
-	padding:8px 35px 8px 14px;
-	margin-bottom:20px;
-	text-shadow:0 1px 0 rgba(255,255,255,0.5);
-	border:1px solid #bce8f1;
-	-webkit-border-radius:4px;
-	-moz-border-radius:4px;
-	border-radius:4px;
+clear: both;
+display: block;
+color: #FFFFFF;
+background-color: #008FD5;
+padding: 8px 35px 8px 14px;
+margin-bottom: 20px;
+font-weight: bold;
+font-family: 'Roboto Slab', serif;
+border-bottom: 3px solid #036EA3;
 }
 
 #page-header-snowalert:before {
@@ -142,20 +597,43 @@ img {
 }
 
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
-    border-color: #E3E3E3;
-	-webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.05);
-    -moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.05);
-    box-shadow: 0px 2px 2px rgba(0,0,0,0.05);
+      border-color: #01051E;
+  -webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.05);
+  -moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.05);
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.05);
+  background: rgb(1, 5, 30);
+
 }
 
 
 
 .navbar-inner {
-    background-color: #ffffff;
-    background-image: none;
-    background-repeat: repeat-x;
+background-color: #213338;
+  background-image: none;
+  background-repeat: repeat-x;
 	
 	}
+/****************/
+.navbar-inner {
+  min-height: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #fafafa;
+  background-image: -moz-linear-gradient(top,#fff,#f2f2f2);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#f2f2f2));
+  background-image: -webkit-linear-gradient(top,#fff,#f2f2f2);
+  background-image: -o-linear-gradient(top,#fff,#f2f2f2);
+  background-image: linear-gradient(to bottom,#fff,#f2f2f2);
+  background-repeat: repeat-x;
+  border: 1px solid #d4d4d4;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#fff2f2f2',GradientType=0);
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.065);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.065);
+}
+/****************/
 	
 .navbar .logo {
     display: block;
@@ -171,10 +649,8 @@ img {
     text-shadow: none;
 }
 
-.navbar .nav > li > a:hover, .navbar .nav > li > a:focus, .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {
-	color: [[setting:menuhovercolor]];
-	text-shadow: none;
-}
+
+
 
 .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {
 background-color: #ffffff;
@@ -182,7 +658,7 @@ color:[[setting:menuhovercolor]];
 }
 
 .navbar .nav > li > a {
-    color: #3d3d3d;
+    color: white;
     float: none;
     text-decoration: none;
     text-shadow: none;
@@ -192,6 +668,11 @@ color:[[setting:menuhovercolor]];
     margin-left: 8px;
     margin-top: 8px;
 }
+/*******/
+li.dropdown {
+background-color: rgb(255, 196, 58);
+}
+/*******/
 
 .navbar .nav li.dropdown > a:hover .caret, .navbar .nav li.dropdown > a:focus .caret, 
 .navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar .nav li.dropdown.active > .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret  {
@@ -238,8 +719,8 @@ color:[[setting:menuhovercolor]];
 
 .course-content {
     background-color: #FFFFFF;
-	border: 1px solid #E3E3E3;
-    border-radius: 1px 1px 1px 1px;
+	/*border: 1px solid #FFB800;*/
+    /*border-radius: 1px 1px 1px 1px;*/
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05);
 	margin-bottom: 20px;
     min-height: 20px;
@@ -257,7 +738,7 @@ color:[[setting:menuhovercolor]];
 }
 
 .course-content ul li.section.main {
-    border-bottom: 2px solid #FAFAFA;
+  border-bottom: 2px solid #FFF;
 }
 
 .path-course-view .completionprogress {
@@ -265,20 +746,26 @@ color:[[setting:menuhovercolor]];
 }
 
 .block {
-    background-color: #FFFFFF;
-    border-radius: 1px 1px 1px 1px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05);
-padding-bottom:5px;
-border-radius: 2px;
+background-color: #FFFFFF;
+border-radius: 1px 1px 1px 1px;
+box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05);
+padding-bottom: 5px;
+border: 5px solid #008fd5;
+margin-bottom: 0px;
 }
 
 .block .content {
-    padding-top:10px;
+    	padding-top:2px;
+}
+.block .content {
+	padding: 2px 2px;
+	word-wrap: break-word;
 }
 
 .block .header .title h2, .block h3.main {
 	font-weight: normal;
 	text-shadow: none;
+	font-weight: bold;
 }
 
 .forumpost {
@@ -293,7 +780,7 @@ border-radius: 2px;
 }
 
 .userpicture {
-    border-radius: 2px;
+    border-radius: 50px;
 }
 
 .headingblock {
@@ -315,7 +802,7 @@ border-radius: 2px;
     color: #e5e5e5;
     font-size: 0.7em;
 	text-align:left;
-	text-shadow: 1px 1px #FFFFFF;
+	/*text-shadow: 1px 1px #FFFFFF;*/
 }
 
 .footerlinks a {
@@ -334,12 +821,413 @@ border-radius: 2px;
 }
 
 .coursebox {
-    background-color: #FFFFFF;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05);
-    padding: 5px;
-    margin-bottom: 15px;
-    border:1px solid #e3e3e3;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
+   /* background-color: #FFFFFF;*/
+    /*box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05);*/
+    /*padding: 5px;*/
+   /* margin-bottom: 15px;*/
+   /* border:1px solid #e3e3e3;*/
+   /* -webkit-border-radius: 2px;*/
+   /* -moz-border-radius: 2px;*/
+    /*border-radius: 2px;*/
+padding: 5px;
+margin-bottom: 15px;
+border: 1px solid #e3e3e3;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+}
+
+/*Nuevos Item para Cursos*/
+
+div#course-4 {
+/*background-color: rgb(43, 39, 90);*/
+  background-image: url("http://educacion.be/cursos/images/logos-cursos/joomla3.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+div#course-5 {
+/*background-color: rgb(43, 39, 90);*/
+  background-image: url("http://educacion.be/cursos/images/logos-cursos/joomla3.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+div#course-3 {
+background-color: rgb(43, 39, 90);
+  background-image: url("http://educacion.be/cursos/images/logos-cursos/photoshop-a.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+div#course-2 {
+  background-color: rgb(43, 39, 90);
+  background-image: url("http://educacion.be/cursos/images/logos-cursos/photoshop-a.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
+div#course-7 {
+  background-color: rgb(44, 88, 151);
+  background-image: url("http://educacion.be/cursos/images/logos-cursos/word2013.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+div#course-6 {
+background-color: rgb(44, 88, 151);
+  background-image: url("http://educacion.be/cursos/images/logos-cursos/word2013.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+div#course-10 {
+  background-color: rgb(30, 113, 69);
+  background-image: url("http://educacion.be/cursos/images/logos-cursos/excel-a.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
+div#course-9 {
+background-color: rgb(30, 113, 69);
+  background-image: url("http://educacion.be/cursos/images/logos-cursos/excel-a.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+div#course-8 {
+background-color: rgb(30, 113, 69);
+  background-image: url("http://educacion.be/cursos/images/logos-cursos/excel-a.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
+div#course-12 {
+  background-color: rgb(208, 67, 37);
+  background-image: url("http://educacion.be/cursos/images/logos-cursos/powerpoint-a.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
+div#course-11 {
+  background-color: rgb(208, 67, 37);
+  background-image: url("http://educacion.be/cursos/images/logos-cursos/powerpoint-a.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
+div#course-14 {
+  background-color: rgb(160, 54, 56);
+  background-image: url("http://educacion.be/cursos/images/logos-cursos/accesst-a.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+div#course-13 {
+  background-color: rgb(160, 54, 56);
+  background-image: url("http://educacion.be/cursos/images/logos-cursos/accesst-a.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+div#course-15 {
+  background-color: rgb(32, 0, 65);
+  background-image: url("http://educacion.be/cursos/images/logos-cursos/powerdirector13.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+div#course-16 {
+    background-color: rgb(39, 23, 88);
+  background-image: url("http://educacion.be/cursos/images/logos-cursos/afterefectcs6.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+div#course-17 {
+    background-color: rgb(39, 23, 88);
+  background-image: url("http://educacion.be/cursos/images/logos-cursos/afterefectcs6.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
+div#course-18 {
+  background: rgb(97, 167, 6);
+  background-image: url("http://educacion.be/cursos/images/logos-cursos/coreldrawx7.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+div#course-19 {
+  background: rgb(97, 167, 6);
+  background-image: url("http://educacion.be/cursos/images/logos-cursos/coreldrawx7.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
+div#course-20 {
+  background-color: rgb(74, 60, 34);
+  background-image: url("http://educacion.be/cursos/images/logos-cursos/ilustratorcs6.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+div#course-21 {
+  background-color: rgb(34, 28, 12);
+  background-image: url("http://educacion.be/cursos/images/logos-cursos/fireworkscs6.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+div#course-23 {
+  background-color: rgb(23, 59, 135);
+  background-image: url("http://educacion.be/cursos/images/logos-cursos/word2010.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+div#course-26 {
+  background-color: rgb(181, 39, 123);
+  background-image: url("http://educacion.be/cursos/images/logos-cursos/access2010.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+div#course-24 {
+  background-color: rgb(16, 100, 48);
+  background-image: url("http://educacion.be/cursos/images/logos-cursos/excel2010.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+div#course-25 {
+  background-color: rgb(233, 111, 38);
+  background-image: url("http://educacion.be/cursos/images/logos-cursos/powerpoint2010.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
+div#course-29 {
+  background-color: rgb(255, 218, 62);
+  background-image: url("http://educacion.be/cursos/images/logos-cursos/javascrip-bt.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+div#course-30 {
+  background-color: rgb(246, 75, 6);
+  background-image: url("http://educacion.be/cursos/images/logos-cursos/wordpress.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+/*************************************************/
+/***integrando menu desplegable****************************/
+nav_menu {
+	background:#528fd5;
+	position: relative;
+}
+ 
+nav_menu ul {
+    list-style: none outside none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    /*background-color: #0078D7;*/
+    margin: auto;
+    max-width: 1190px;
+    border-bottom: 3px solid #FFF;
+    text-transform: uppercase;
+    font-family: "Oswald",Arial,Helvetica,sans-serif;
+    color: #0078D7;
+    /*background: #25c3c8;*/
+    vertical-align: middle;
+    color: white;
+    text-transform: uppercase;
+    background-image: url("http://educacion.be/cursos/images/fondo.jpg");
+    height: 200px;
+    /*background-size: cover;*/
+}
+ 
+nav_menu > ul > li {
+	float:left;
+}
+ 
+nav_menu ul li a {
+	text-decoration:none;
+	color: #FFFFFF;
+	display:block;
+	padding:10px 20px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+}
+ 
+nav_menu ul li a:hover {
+	/*background: #FFC33E;*/
+}
+ 
+nav_menu > ul > li:hover div {
+	display:table;
+}
+ 
+/*Submenu*/
+nav_menu ul li div {
+	width:800px;
+	position: absolute;
+	background:#ccc;
+	box-sizing:border-box;
+	display:none;
+}
+ 
+nav_menu ul li div ul{
+	width:20%;
+	display:table-cell;
+	border-right:1px solid rgba(255,255,255,.5);
+	box-sizing:border-box;
+}
+ 
+nav_menu ul li div ul:last-child {
+	border:none;
+}
+ 
+nav_menu ul li div ul .titulo {
+	background:#000;
+	color:#fff;
+}
+ 
+nav_menu ul li div ul .titulo a {
+	color:#fff;
+	padding:10px 20px;
+}
+ 
+.titulo.azul {background:#3498db;}
+.titulo.verde{background:#27ae60;}
+.titulo.naranja {background:#e67e22;}
+.titulo.rojo {background:#c0392b; color:#000;}
+ 
+nav_menu ul li div ul .titulo a:hover {
+	background:none;
+}
+ 
+nav_menu ul li div ul li a {
+	color:#000;
+}
+ 
+nav_menu ul li div ul li a:hover {
+	color:#fff;
+}
+
+li#yosoy {
+/*background-color: #FFFFFF;*/
+float: right;
+margin-right: 10px;
+}
+/***botones y estilos Margoth***/
+input#id_submitbutton {
+background-color: #0C86D0;
+background-image: -moz-linear-gradient(top,#0C86D0,#0C86D0);
+background-image: -webkit-gradient(linear,0 0,0 100%,from(#0C86D0),to(#0C86D0));
+background-image: -moz-gradient(linear,0 0,0 100%,from(#5fa9dd),to(#5fa9dd));
+background-image: -webkit-linear-gradient(top,#0C86D0,#0C86D0);
+background-image: -o-linear-gradient(top,#0C86D0,#0C86D0);
+background-image: -moz-linear-gradient(top,#0C86D0,#0C86D0);
+background-image: -o-linear-gradient(top,#0C86D0,#0C86D0);
+}
+/****Botones subir archivo*/
+input#filepicker-button-545e0f57a87db {
+background-color: purple;
+background-image: -moz-linear-gradient(top,#FFC33E,#FFC33E);
+background-image: -webkit-gradient(linear,0 0,0 100%,from(#FFC33E),to(#FFC33E));
+background-image: -webkit-linear-gradient(top,#FFC33E,#FFC33E);
+background-image: -o-linear-gradient(top,#FFC33E,#FFC33E);
+background-image: linear-gradient(to bottom,#FFC33E,#FFC33E);
+background-repeat: repeat-x;
+border: 1px solid #FFC33E;
+border-color: #FFC33E #FFC33E #FFC33E;
+border-bottom: 4px solid #8E5600;
+border-radius: 5px;
+text-transform: uppercase;
+}
+/****/
+button, input.form-submit, input[type="button"], input[type="submit"], input[type="reset"] {
+background-image: -moz-linear-gradient(top,#FFC33E,#FFC33E);
+background-image: -webkit-gradient(linear,0 0,0 100%,from(#ff4842),to(#ff4842));
+background-image: -webkit-linear-gradient(top,#ff4842,#ff4842);
+background-image: -o-linear-gradient(top,#FFC33E,#FFC33E);
+background-image: linear-gradient(to bottom,#ff4842,#ff4842);
+background-repeat: repeat-x;
+border: 1px solid #ff4842;
+border-color: #ff4842 #ff4842 #ff4842;
+border-bottom: 4px solid #d0272a;
+border-radius: 5px;
+/* text-transform: uppercase; */
+text-shadow: none;
+color: white;
+}
+
+/***/
+input#id_submitbutton2 {
+color: #FFF;
+text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+background-color: #28B779;
+background-image: linear-gradient(to bottom, #28B779, #28B779);
+background-repeat: repeat-x;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+/***/
+button.btn {
+color: #FFF;
+text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+background-color: #9E03A8;
+background-image: linear-gradient(to bottom, #ED17EB, #ED17EB);
+background-repeat: repeat-x;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+border-bottom: 4px solid #9E03A8;
+}
+
+/***/
+#notice .singlebutton+.singlebutton input, .submit.buttons input[name="cancel"] {
+display: inline-block;
+text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+color: white;
+background-color: #A928B7;
+background-image: linear-gradient(to bottom, #CA09C7, #CA09C7);
+background-repeat: repeat-x;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+border-bottom: 4px solid #8703AB;
+font-size: 12px;
+}
+
+/**botones hover**/
+input.form-submit:hover, input#id_submitbutton:hover, input#id_submitbutton2:hover, .path-admin .buttons input[type="submit"]:hover, td.submit input:hover, input.form-submit:focus, input#id_submitbutton:focus, input#id_submitbutton2:focus, .path-admin .buttons input[type="submit"]:focus, td.submit input:focus, input.form-submit:active, input#id_submitbutton:active, input#id_submitbutton2:active, .path-admin .buttons input[type="submit"]:active, td.submit input:active, input.form-submit.active, input#id_submitbutton.active, input#id_submitbutton2.active, .path-admin .buttons input[type="submit"].active, td.submit input.active, input.form-submit.disabled, input#id_submitbutton.disabled, input#id_submitbutton2.disabled, .path-admin .buttons input[type="submit"].disabled, td.submit input.disabled, input.form-submit[disabled], input#id_submitbutton[disabled], input#id_submitbutton2[disabled], .path-admin .buttons input[type="submit"][disabled], td.submit input[disabled] {
+text-decoration: none;
+background-position: 0 -30px;
+-webkit-transition: background-position .1s linear;
+-moz-transition: background-position .1s linear;
+-o-transition: background-position .1s linear;
+transition: background-position .1s linear;
+background-color: #ffc33e;
+border-bottom: 4px solid #ffc33e;
+border-color: #ffc33e #ffc33e #f39c12;
+color: #FFF;
+}
+
+#notice .singlebutton+.singlebutton input:hover, .submit.buttons input[name="cancel"]:hover, #notice .singlebutton+.singlebutton input:focus, .submit.buttons input[name="cancel"]:focus {
+text-decoration: none;
+background-position: 0 -30px;
+-webkit-transition: background-position .1s linear;
+-moz-transition: background-position .1s linear;
+-o-transition: background-position .1s linear;
+transition: background-position .1s linear;
+background-color: #00BEA9;
+border-bottom: 4px solid #00BEA9;
+border-color: #00BEA9 #00BEA9 #05897B;
+color: #FFF;
+}
+/**abatar**/
+.block_myprofile img.profilepicture {
+height: 100px;
+width: 100px;
+border-radius: 50px;
+text-align: center;
+}
+
+/**boton login**/
+.btn:hover, .btn:focus {
+text-decoration: none;
+background-position: 0 -30px;
+-webkit-transition: background-position .1s linear;
+-moz-transition: background-position .1s linear;
+-o-transition: background-position .1s linear;
+transition: background-position .1s linear;
+background-color: #ffc43a;
+border-bottom: 4px solid #ffc43a;
+border-color: #ffc43a #ffc43a #F39C12;
+color: #FFF;
+}
+
+body {
+    padding-top: 40px;
 }
